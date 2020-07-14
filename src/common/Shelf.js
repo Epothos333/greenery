@@ -1,6 +1,6 @@
 import React from 'react';
 import { FlatList, View, Text, Image } from 'react-native';
-import pot from '../assets/pot.jpg';
+import pot from 'assets/pot.jpg';
 
 function Shelf() {
 
@@ -8,14 +8,13 @@ function Shelf() {
     return (
       <View
         style={{
-          // minHeight: 100,
           borderWidth: 1,
           borderColor: 'green',
           margin: 5,
           flexDirection: 'column',
           width: 100,
           justifyContent: 'space-around',
-          alignItems: 'center'
+          alignItems: 'center',
         }}
       >
         <Text>{item.name}</Text>
